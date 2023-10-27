@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class AnimalController extends Controller
 {
-    public $animal = ["Kucing", "Ayam", "Ikan", "Burung"];
+    public $animals = ["Kucing", "Ayam", "Ikan", "Burung"];
 
     public function index(){
         foreach ($this->animals as $animal) {
